@@ -550,6 +550,13 @@ M E D I A  Q U E R I E S
     }
 
 
+    .navbar-brand {
+        width: 20%;
+        padding: 2rem;
+    }
+
+
+
     .main-heading {
         font-size: 6rem;
         padding-top: 20rem;
@@ -643,7 +650,7 @@ M E D I A  Q U E R I E S
     }
 
     #info .sub-heading {
-        font-size: 4.5rem;
+        font-size: 3.7rem;
     }
 
     #info .btn {
