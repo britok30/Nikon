@@ -116,7 +116,7 @@ a {
 #hero {
     height: 100vh;
     margin-top: 0;
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.637)),
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)),
         url(../img/hero.jpg) no-repeat center center/cover;
     background-attachment: fixed;
 }
@@ -380,7 +380,7 @@ M E D I A  Q U E R I E S
     }
 
     #hero {
-        background-size: cover
+        background-size: cover;
     }
 
     .main-heading {
