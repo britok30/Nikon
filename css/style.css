@@ -379,10 +379,6 @@ M E D I A  Q U E R I E S
         padding: 1rem;
     }
 
-    #hero {
-        background-size: 100%;
-    }
-
     .main-heading {
         font-size: 6rem;
         padding-top: 20rem;
@@ -542,7 +538,6 @@ M E D I A  Q U E R I E S
 
     #hero {
         height: 120vh;
-        background-size:
     }
 
     .navbar {
