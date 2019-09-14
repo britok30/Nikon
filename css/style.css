@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-transform: translatez(0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+body {
+    font-family: "Roboto",
+        sans-serif
+}
+
+section {
+    margin: 12rem 0;
+}
+
+
+
+
+/* UTILITIES */
+.main-heading {
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 10rem;
+    padding-top: 25rem;
+    border-bottom: 1px solid #ffdd00;
+
+}
+
+
+.text-prime {
+    color: #ffdd00
+}
+
+.main-sub-heading {
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-heading {
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sm-heading {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.lead-p {
+    font-size: 5rem;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+}
+
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+ul .lead {
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+ul li {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 15vh;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    width: 10%;
+    padding: 2rem;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+/* SECTION HERO */
+
+#hero {
+    height: 100vh;
+    margin-top: 0;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.637)),
+        url(../img/hero.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+
+/* SECTION CAMERAS */
+
+.camera-pics {
+    width: 50%;
+    padding-bottom: 1.5rem;
+    margin: auto;
+    display: block;
+    transition: all .4s;
+}
+
+.camera-pics:hover {
+    transform: scale(1.1)
+}
+
+/* SECTION SHOWCASE  */
+
+#showcase {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/shanghai.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+#showcase .sub-heading {
+    color: #fff;
+    font-weight: 100;
+    font-size: 8rem;
+    margin-top: 18rem;
+}
+
+#showcase .btn {
+    font-size: 2rem;
+    background-color: #ffdd00;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+
+
+/* SECTION PRODUCT */
+
+#product .sub-heading {
+    padding: 3rem;
+}
+
+#product .d850 {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#product .description,
+#product-2 .description {
+    width: 60%;
+    margin: auto;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/* SECTION SHOWCASE-2 */
+
+#showcase-2 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/blue.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+#showcase-2 .sub-heading {
+    color: #fff;
+    font-weight: 100;
+    font-size: 8rem;
+    margin-top: 18rem;
+}
+
+#showcase-2 .btn {
+    font-size: 2rem;
+    background-color: #ffdd00;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+
+/* PRODUCT 2 */
+
+#product-2 .sub-heading {
+    padding: 3rem;
+}
+
+#product-2 .z7 {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/* SECTION SHOWCASE-3 */
+
+#showcase-3 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/italy.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+#showcase-3 .sub-heading {
+    color: #fff;
+    font-weight: 100;
+    font-size: 8rem;
+    margin-top: 18rem;
+}
+
+#showcase-3 .btn {
+    font-size: 2rem;
+    background-color: #ffdd00;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+/* SECTION QUESTIONS */
+
+#questions .sub-heading {
+    padding: 3rem;
+}
+
+#questions .btn {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: .5rem;
+}
+
+#questions .column {
+    text-align: center;
+}
+
+.q-p {
+    font-size: 1.3rem;
+}
+
+/* SECTION SHOWCASE-4 */
+
+#showcase-4 {
+    margin-bottom: 0;
+}
+
+#showcase-4 .left {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/lights.jpg) no-repeat center center/cover;
+    height: 70vh
+}
+
+#showcase-4 .middle {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/city.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+#showcase-4 .right {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+        url(../img/yosemite.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+/* SECTION INFO */
+
+#info {
+    background: #000;
+    height: 70vh;
+    margin: 0;
+}
+
+#info .sub-heading {
+    color: #fff;
+    padding: 5rem;
+    font-size: 8rem;
+    font-weight: 100;
+}
+
+#info label {
+    color: #fff;
+}
+
+#info .btn {
+    font-size: 2rem;
+    background-color: #ffdd00;
+    border-radius: 5px;
+    margin: .5rem auto;
+    padding: .5rem;
+}
+
+.submit-p {
+    font-size: 1rem;
+    color: #fff;
+    width: 60%;
+    padding: 3rem;
+    margin: auto;
+}
+
+/* FOOTER */
+#footer {
+    background: rgb(235, 233, 233);
+}
+
+#footer .sub-heading {
+    padding: 5rem;
+}
+
+#footer p {
+    font-size: 1.3rem;
+}
+
+#footer ul li {
+    display: inline;
+
+}
+
+#footer .icon-row {
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main-heading {
+        font-size: 6rem;
+        padding-top: 20rem;
+
+    }
+
+    .main-sub-heading {
+        font-size: 3.5rem;
+    }
+
+    .sub-heading {
+        font-size: 3rem;
+    }
+
+    .sm-heading {
+        font-size: 1.7rem;
+
+    }
+
+    .lead-p {
+        font-size: 3rem;
+    }
+
+
+    p {
+        font-size: 1.3rem;
+    }
+
+
+    ul li {
+        font-size: 1.5rem;
+
+    }
+
+
+
+    /* NAVBAR */
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .navbar-brand {
+        width: 30%;
+        padding: 2rem;
+    }
+
+    /* CAMERAS */
+
+    .camera-pics {
+        width: 40%;
+    }
+
+
+    /* SHOWCASE */
+
+    #showcase .sub-heading,
+    #showcase-2 .sub-heading,
+    #showcase-3 .sub-heading {
+        font-size: 4rem;
+    }
+
+    #showcase .btn,
+    #showcase-2 .btn,
+    #showcase-3 .btn {
+        font-size: 1.3rem;
+    }
+
+    /* PRODUCT */
+
+    #product .d850 {
+        width: 80%;
+    }
+
+    #product-2 .z7 {
+        width: 55%;
+    }
+
+
+    /* INFO */
+
+    #info .sub-heading {
+        font-size: 4.5rem;
+    }
+
+    #info label {
+        color: #fff;
+    }
+
+    #info .btn {
+        font-size: 1.3rem;
+    }
+
+    .submit-p {
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    /* FOOTER */
+
+    #footer p {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-brand {
+        width: 20%;
+        padding: 2rem;
+    }
+
+    /* CAMERAS */
+
+    .camera-pics {
+        width: 40%;
+    }
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* NAVBAR  */
+
+    .navbar-brand {
+        width: 20%;
+        padding: 2rem;
+    }
+
+    /* HERO */
+
+    .main-heading {
+        font-weight: 100;
+        font-size: 8rem;
+
+    }
+
+}
+
+
+/* Iphone X Landscape  */
+@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+
+    #hero {
+        height: 120vh;
+    }
+
+    .navbar {
+        height: 30vh;
+    }
+
+
+    .main-heading {
+        font-size: 6rem;
+        padding-top: 20rem;
+
+    }
+
+    .main-sub-heading {
+        font-size: 3.5rem;
+    }
+
+    .sub-heading {
+        font-size: 3rem;
+    }
+
+    .sm-heading {
+        font-size: 1.7rem;
+
+    }
+
+    .lead-p {
+        font-size: 3rem;
+    }
+
+
+    p {
+        font-size: 1.3rem;
+    }
+
+
+    ul li {
+        font-size: 1.5rem;
+
+    }
+
+
+
+    /* NAVBAR */
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .navbar-brand {
+        width: 30%;
+        padding: 2rem;
+    }
+
+    /* CAMERAS */
+
+    .camera-pics {
+        width: 40%;
+    }
+
+
+    /* SHOWCASE */
+
+    #showcase,
+    #showcase-2,
+    #showcase-3 {
+        height: 100vh;
+    }
+
+    #showcase .sub-heading,
+    #showcase-2 .sub-heading,
+    #showcase-3 .sub-heading {
+        font-size: 4rem;
+        margin-top: 10rem;
+    }
+
+    #showcase .btn,
+    #showcase-2 .btn,
+    #showcase-3 .btn {
+        font-size: 1.3rem;
+    }
+
+    /* PRODUCT */
+
+    #product .d850 {
+        width: 50%;
+    }
+
+    #product-2 .z7 {
+        width: 35%;
+    }
+
+
+    /* INFO */
+
+    #info {
+        height: 100vh;
+    }
+
+    #info .sub-heading {
+        font-size: 4.5rem;
+    }
+
+    #info .btn {
+        font-size: 1.3rem;
+    }
+
+    .submit-p {
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    /* FOOTER */
+
+    #footer p {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* NAVBAR  */
+
+    .navbar-brand {
+        width: 15%;
+        padding: 2rem;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Landscape for Ipad Pro*/
+
+@media only screen and (min-width: 1366px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1441px to higher resolution desktops
+*/
+
+@media (min-width: 1441px) {}
+
+;
