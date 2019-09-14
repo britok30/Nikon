@@ -375,6 +375,14 @@ M E D I A  Q U E R I E S
 */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    #hero {
+        background-size: cover
+    }
+
     .main-heading {
         font-size: 6rem;
         padding-top: 20rem;
@@ -534,6 +542,7 @@ M E D I A  Q U E R I E S
 
     #hero {
         height: 120vh;
+        background-size: cover;
     }
 
     .navbar {
