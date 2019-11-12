@@ -93,7 +93,7 @@ a {
 /* NAVBAR */
 
 .navbar {
-  height: 15vh;
+  height: 10vh;
 }
 
 .nav-link {
@@ -106,13 +106,13 @@ a {
 }
 
 .navbar-brand img {
-  width: 80%;
+  width: 25%;
 }
 
 /* SECTION HERO */
 
 #hero {
-  height: 80vh;
+  height: 100vh;
   margin-top: 0;
   background: -webkit-gradient(
       linear,
@@ -128,7 +128,6 @@ a {
       rgba(0, 0, 0, 0.404)
     ),
     url(../img/hero.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
 }
 
 /* SECTION CAMERAS */
